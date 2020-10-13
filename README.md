@@ -10,7 +10,7 @@
 
 This application must:
 
-✅ App component should be able to add new repository
+✅ App component should be able to add new repository <br>
 ✅ App component should be able to remove repository
 
 [Desafio Completo](https://github.com/rocketseat-education/bootcamp-gostack-desafios/tree/master/desafio-conceitos-reactjs)
