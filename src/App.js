@@ -23,6 +23,12 @@ function App() {
   async function handleRemoveRepository(id) {
     await api.delete(`repositories/${id}`)
 
+    const newArray = repositories.filter(
+      repository => repository.id !== id 
+    )
+
+    setRepositories(newArray)
+
   }
 
   useEffect(() => {
